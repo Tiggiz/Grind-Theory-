@@ -1,0 +1,237 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grind Theory — Streetwear from Eastleigh</title>
+  <meta name="description" content="Grind Theory — Nairobi streetwear. Tees, Pants, Varsity Jackets. Taisir Shopping Center, Eastleigh." />  <style>
+    :root{
+      --bg:#0b0b0d;
+      --card:#0f0f11;
+      --muted:#bfc3c6;
+      --gold:#c9a34a;
+      --accent:linear-gradient(90deg,var(--gold),#f2d67a);
+      --max-width:1100px;
+      --radius:14px;
+      --shadow: 0 8px 30px rgba(0,0,0,0.6);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:#fff;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+      padding:28px 20px;
+      display:flex;
+      justify-content:center;
+    }
+    .container{max-width:var(--max-width);width:100%}
+
+    header{
+      display:flex;align-items:center;justify-content:space-between;margin-bottom:26px
+    }
+    .brand{
+      display:flex;align-items:center;gap:14px;text-decoration:none;color:inherit
+    }
+    .logo{
+      width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,#111,#222);display:inline-grid;place-items:center;border:2px solid rgba(255,255,255,0.04);font-weight:800;color:var(--gold);
+      font-size:20px;
+    }
+    h1{font-size:28px;margin:0;letter-spacing:0.6px}
+    .nav{display:flex;gap:12px;align-items:center}
+    .btn{padding:10px 14px;border-radius:10px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.03);text-decoration:none;color:var(--muted);font-weight:600}
+    .btn.primary{background:linear-gradient(90deg,#ffe9a8, #c9a34a);color:#111;border:none}
+
+    main{background:transparent}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:32px;align-items:center;margin-bottom:36px}
+    .hero-left{padding:22px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border-radius:12px;border:1px solid rgba(255,255,255,0.03);box-shadow:var(--shadow)}
+    .eyebrow{color:var(--gold);font-weight:700;margin-bottom:10px}
+    .hero h2{font-size:34px;margin:0 0 10px}
+    .lead{color:var(--muted);margin-bottom:16px}
+    .cta-row{display:flex;gap:12px}
+
+    .hero-right{background:var(--card);border-radius:12px;padding:16px;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,0.03)}
+    .shop-sample{display:grid;gap:10px}
+    .product{display:flex;gap:12px;align-items:center}
+    .thumb{width:72px;height:72px;border-radius:10px;background:linear-gradient(135deg,#222,#111);display:grid;place-items:center;border:1px solid rgba(255,255,255,0.02)}
+    .pname{font-weight:700}
+    .price{color:var(--gold);font-weight:800}
+
+    section.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-bottom:24px}
+    .card{background:var(--card);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);box-shadow:var(--shadow)}
+    .card h3{margin:0 0 8px}
+    .product-card img{width:100%;height:200px;object-fit:cover;border-radius:8px;margin-bottom:10px}
+    .price-row{display:flex;align-items:center;justify-content:space-between}
+
+    footer{margin-top:28px;color:var(--muted);display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+    .socials{display:flex;gap:10px}
+    a.social{padding:8px;border-radius:8px;background:rgba(255,255,255,0.02);text-decoration:none;color:var(--muted);display:inline-flex;gap:8px;align-items:center}
+
+    /* responsive */
+    @media (max-width:880px){
+      .hero{grid-template-columns:1fr;}
+      .hero-right{order:-1}
+    }
+
+    /* small helper */
+    .muted{color:var(--muted)}
+    .badge{display:inline-block;padding:6px 8px;border-radius:8px;background:rgba(255,255,255,0.02);font-weight:700}
+  </style></head>
+<body>
+  <div class="container">
+    <header>
+      <a class="brand" href="#">
+        <div class="logo">GT</div>
+        <div>
+          <h1>Grind Theory</h1>
+          <div class="muted">Eastleigh · Nairobi</div>
+        </div>
+      </a>
+      <nav class="nav">
+        <a class="btn" href="#shop">Shop</a>
+        <a class="btn" href="#about">About</a>
+        <a class="btn primary" href="#contact">Contact</a>
+      </nav>
+    </header><main>
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <div class="eyebrow">Built from Hustle — Worn with Pride</div>
+      <h2>Grind Theory — Streetwear for the Hustle</h2>
+      <p class="lead">Clean tees, comfy pants, and bold varsity jackets — affordable, premium-feel streetwear made in Nairobi. Find us at Taisir Shopping Center, 11th Street, opposite Huduma Centre.</p>
+
+      <div class="cta-row">
+        <a class="btn primary" href="#shop">Shop Tees from KSh 1,200</a>
+        <a class="btn" href="#contact">WhatsApp Us</a>
+      </div>
+    </div>
+
+    <aside class="hero-right">
+      <div class="badge">Featured</div>
+      <div style="height:12px"></div>
+      <div class="shop-sample">
+        <div class="product">
+          <div class="thumb">T</div>
+          <div>
+            <div class="pname">Azin Tee</div>
+            <div class="muted">Classic fit</div>
+            <div class="price">KSh 1,300</div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="thumb">P</div>
+          <div>
+            <div class="pname">Comfy Pants</div>
+            <div class="muted">Relaxed</div>
+            <div class="price">KSh 1,600</div>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="thumb">V</div>
+          <div>
+            <div class="pname">Varsity Jacket</div>
+            <div class="muted">Statement</div>
+            <div class="price">KSh 3,200</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <section id="shop" class="grid">
+    <div class="card product-card">
+      <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=60" alt="Tee">
+      <h3>Azin Tee</h3>
+      <p class="muted">Soft cotton, clean design.</p>
+      <div class="price-row"><div class="price">KSh 1,300</div><button class="btn" onclick="addToCart('Azin Tee',1300)">Add</button></div>
+    </div>
+
+    <div class="card product-card">
+      <img src="https://images.unsplash.com/photo-1520975673418-9c2b8f4ccf1d?auto=format&fit=crop&w=800&q=60" alt="Pants">
+      <h3>Comfy Pants</h3>
+      <p class="muted">Relaxed fit, durable.</p>
+      <div class="price-row"><div class="price">KSh 1,600</div><button class="btn" onclick="addToCart('Comfy Pants',1600)">Add</button></div>
+    </div>
+
+    <div class="card product-card">
+      <img src="https://images.unsplash.com/photo-1602810311279-a9a7b2e8a6b8?auto=format&fit=crop&w=800&q=60" alt="Jacket">
+      <h3>Varsity Jacket</h3>
+      <p class="muted">Bold, warm, and iconic.</p>
+      <div class="price-row"><div class="price">KSh 3,200</div><button class="btn" onclick="addToCart('Varsity Jacket',3200)">Add</button></div>
+    </div>
+
+    <div class="card">
+      <h3>Visit Us</h3>
+      <p class="muted">Taisir Shopping Center, 11th Street, 2nd Avenue — opposite Huduma Centre, Eastleigh, Nairobi.</p>
+      <p style="margin-top:10px;"><a class="btn" href="https://instagram.com/iamtiggiz" target="_blank">Instagram</a> <a class="btn" href="https://facebook.com/TiggizFashionCollection" target="_blank">Facebook</a></p>
+    </div>
+  </section>
+
+  <section id="about" class="card" style="margin-bottom:20px">
+    <h2>About Grind Theory</h2>
+    <p class="muted">Grind Theory is a Nairobi-based streetwear brand built from hustle and designed for those who move with purpose. We focus on durable materials, comfortable fits, and designs that speak confidence.</p>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact Us</h2>
+    <p class="muted">Instagram: <a href="https://instagram.com/iamtiggiz" target="_blank">@iamtiggiz</a> · Facebook: <a href="https://facebook.com/TiggizFashionCollection" target="_blank">Tiggiz Fashion Collection</a></p>
+    <p class="muted">WhatsApp: <a id="waLink" href="#">+254XXXXXXXXX</a></p>
+
+    <form id="contactForm" onsubmit="sendMessage(event)">
+      <div style="display:flex;gap:10px;flex-direction:column">
+        <input id="name" placeholder="Your name" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit" required>
+        <input id="email" placeholder="Email (optional)" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+        <textarea id="message" placeholder="Message or order details" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit" required></textarea>
+        <div style="display:flex;gap:8px;align-items:center">
+          <button class="btn primary" type="submit">Send</button>
+          <button class="btn" type="button" onclick="openWhatsApp()">Chat on WhatsApp</button>
+        </div>
+      </div>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <div>© 2025 Grind Theory</div>
+  <div class="socials">
+    <a class="social" href="https://instagram.com/iamtiggiz" target="_blank">Instagram</a>
+    <a class="social" href="https://facebook.com/TiggizFashionCollection" target="_blank">Facebook</a>
+  </div>
+</footer>
+
+  </div>  <script>
+    // Replace WhatsApp placeholder with your real number: +254XXXXXXXXX (no plus signs in wa:// link)
+    const WA_NUMBER = '+254XXXXXXXXX'; // <-- replace this
+    const waLinkEl = document.getElementById('waLink');
+    function formatWa(number){
+      const cleaned = number.replace(/[^0-9]/g,'');
+      return 'https://wa.me/' + cleaned;
+    }
+    waLinkEl.href = formatWa(WA_NUMBER);
+    waLinkEl.innerText = WA_NUMBER;
+
+    function openWhatsApp(){
+      window.open(formatWa(WA_NUMBER), '_blank');
+    }
+
+    function addToCart(name, price){
+      alert(name + ' added to cart — Price: KSh ' + price + '\nTo order, send us a WhatsApp message.');
+    }
+
+    function sendMessage(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+      const text = encodeURIComponent(`Order from ${name} (${email || 'no email'}): ${message}`);
+      window.open(formatWa(WA_NUMBER) + '?text=' + text, '_blank');
+    }
+  </script></body>
+  </html>
